@@ -1,5 +1,6 @@
 import { navbar } from "vuepress-theme-hope";
 
+//顶部导航栏配置文件
 export default navbar([
   "/",
   "/demo/",
@@ -48,5 +49,24 @@ export default navbar([
     text: "V2 文档",
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
+  },
+  {
+    text: "部署文档",
+    icon: "pen-to-square",
+    prefix: "/vuepress/",
+    children: [
+      {
+        text: "vuepress-theme-hope",
+        icon: "pen-to-square",
+        prefix: "vuepress/",
+        children: [
+          {
+            text: "vuepress-theme-hope",
+            icon: "pen-to-square",
+            link: "wendang",
+          },
+        ],
+      },
+    ],
   },
 ]);

@@ -3,11 +3,12 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+//主题相关配置文件
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
+    name: "Le Vent Se Leve",
     url: "https://mister-hope.com",
   },
 
@@ -29,7 +30,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "下去沉淀，沉淀",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
@@ -236,4 +237,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+},{custom: true});

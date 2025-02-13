@@ -1,5 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
+//侧边导航栏配置文件
 export default sidebar({
   "/": [
     "",
