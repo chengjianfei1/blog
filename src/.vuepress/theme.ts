@@ -12,7 +12,7 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  //logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -65,7 +65,7 @@ export default hopeTheme({
       Youtube: "https://example.com",
       Zhihu: "https://example.com",
       VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+        icon: "https://theme-hope-assets.vuejs.press/logo.jpg",
         link: "https://theme-hope.vuejs.press",
       },
     },
